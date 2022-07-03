@@ -22,8 +22,9 @@ Product.belongsToMany(Tag, {
 // Tags belongToMany Products (through ProductTag)
 Tag.belongsToMany(Product, {
   through: {
-    modedl: ProductTag,
+    model: ProductTag,
     unique: false,
+    foreignKey: "tag_id",
   },
 });
 
