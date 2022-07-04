@@ -25,7 +25,7 @@
 
 
   ## Installation
-  Delete entries from the database intall sql sequelize express 
+  intall sql sequelize express 
 
   ## Usage
    npm start
